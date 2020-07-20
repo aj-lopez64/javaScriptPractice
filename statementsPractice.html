@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript Statements Test </h2>
+
+<button type="button" onClick="computeSum()"> Click Here to see the sum</button>
+
+
+<p id="sum1"></p>
+<p id="sum2"></p>
+
+<script>
+
+var a, b, c, d;
+
+a = 65;
+b = 50;
+c = a + b;
+d = a + b + c;
+
+function computeSum() {
+
+document.getElementById("sum1").innerHTML = c;
+document.getElementById("sum2").innerHTML = d;
+}
+
+</script>
+
+</body>
+</html>
