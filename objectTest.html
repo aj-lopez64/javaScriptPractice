@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Testing an Object </h2>
+
+<p id="personInfo1"></p>
+<p id="personInfo2"></p>
+
+<script>
+
+var person = {firstName: "Albert",
+  lastName: "Lopez",
+  age:22,
+  job: "Shift Lead"}
+
+document.getElementById("personInfo1").innerHTML = person.firstName + " is "
+  + person.age + " years old ";
+document.getElementById("personInfo2").innerHTML = person["firstName"]
+  + "'s last name is " + person["lastName"] + ".";
+
+</script>
+
+</body>
+</html>

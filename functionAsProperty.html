@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Testing The fullName Function </h2>
+
+<p id="thePerson"></p>
+
+<script>
+
+var person = {
+  firstName : "Albert",
+  lastName  : "Lopez",
+  id        : 30139952,
+  fullName  : function() {
+    return this.firstName + " " + this.lastName
+  }
+};
+
+document.getElementById("thePerson").innerHTML = person.fullName();
+
+</script>
+
+</body>
+</html>
